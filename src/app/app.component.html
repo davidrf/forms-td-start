@@ -21,7 +21,7 @@
               type="email"
               id="email"
               class="form-control"
-              ngModel
+              [ngModel]
               name="email"
               required
               email
@@ -35,7 +35,7 @@
           <select
             id="secret"
             class="form-control"
-            ngModel
+            [ngModel]="defaultQuestion"
             name="secret"
           >
             <option value="pet">Your first Pet?</option>
